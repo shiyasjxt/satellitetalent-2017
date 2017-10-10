@@ -9,6 +9,7 @@
     }
     // jquery
     $(function() {
+        $("#content").before('<br><br><br><p style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6D6XtRfbaq4" width="560"></iframe></p>');
         // bootstrap classes
         $("#dynamic-container, #content-container, #job-dynamic-container").wrap("<div class='container-fluid'></div>").addClass("row");
         $("#content-container.newDash").removeClass("container");
